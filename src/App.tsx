@@ -643,7 +643,7 @@ export default function App() {
                             </button>
                           </div>
                           <div className="flex items-center justify-center text-sm text-gray-500">
-                            <LockKeyhole className="h-4 w-4 mr-2" />
+                            <Lock className="h-4 w-4 mr-2" />
                             We protect your data. No spam, ever.
                           </div>
                         </div>
