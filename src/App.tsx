@@ -220,7 +220,7 @@ function useExitIntent(callback) {
   }, [callback]);
 }
 
-export default function FastTrackWebsite() {
+export default function App() {
   const [currentQuestion, setCurrentQuestion] = useState(0);
   const [answers, setAnswers] = useState({});
   const [email, setEmail] = useState("");
