@@ -869,7 +869,7 @@ export default function App() {
               48-hour delivery
             </div>
             <div className="flex items-center">
-              <LockKeyhole className="h-5 w-5 mr-2" />
+              <Lock className="h-5 w-5 mr-2" />
               Data protected
             </div>
           </div>
