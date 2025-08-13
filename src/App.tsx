@@ -5,9 +5,9 @@ import {
   ResponsiveContainer, BarChart, Bar, XAxis, YAxis, Tooltip, LineChart, Line
 } from "recharts";
 import { 
-  CheckCircle2, ArrowRight, ShieldCheck, Zap, Timer, Cpu, Gauge, 
-  Target, Users, LockKeyhole, Mail, X, TrendingUp, AlertTriangle,
-  Brain, Award, Clock, Eye
+ CheckCircle2, ArrowRight, ShieldCheck, Zap, Timer, Cpu, Gauge, 
+Target, Users, Lock, Mail, X, TrendingUp, AlertTriangle,
+Brain, Award, Clock, Eye
 } from "lucide-react";
 
 // Fast Track Colors
