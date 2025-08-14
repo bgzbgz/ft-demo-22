@@ -736,7 +736,7 @@ export default function App() {
 
       <div className="grid md:grid-cols-3 gap-8 mb-16">
   <div className="text-center">
-    <div className="text-6xl font-headline font-bold mb-4" style={{ color: colors.black }}>87%</div>
+   <div className="text-6xl font-headline font-bold mb-4 text-black">87%</div>
     <h3 className="text-xl font-headline font-bold mb-2 uppercase text-black">Execution success vs 23% average</h3>
     <p className="text-gray-600 font-body">Fast Track clients achieve 87% execution success while industry averages 23%</p>
   </div>
@@ -746,7 +746,7 @@ export default function App() {
     <p className="text-gray-600 font-body">Personal optimization delivers 6,849% to 27,000% ROI on business results</p>
   </div>
   <div className="text-center">
-    <div className="text-6xl font-headline font-bold mb-4" style={{ color: colors.black }}>48h</div>
+   <div className="text-6xl font-headline font-bold mb-4 text-black">48h</div>
     <h3 className="text-xl font-headline font-bold mb-2 uppercase text-black">Clarity delivery time</h3>
     <p className="text-gray-600 font-body">Business MRI delivered in 48 hours, not months of consulting</p>
   </div>
