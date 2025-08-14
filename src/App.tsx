@@ -741,7 +741,7 @@ export default function App() {
     <p className="text-gray-600 font-body">Fast Track clients achieve 87% execution success while industry averages 23%</p>
   </div>
   <div className="text-center">
-    <div className="text-6xl font-headline font-bold mb-4" style={{ color: colors.black }}>27,000%</div>
+   <div className="text-6xl font-headline font-bold mb-4 text-black">27,000%</div>
     <h3 className="text-xl font-headline font-bold mb-2 uppercase text-black">ROI on personal efficiency</h3>
     <p className="text-gray-600 font-body">Personal optimization delivers 6,849% to 27,000% ROI on business results</p>
   </div>
