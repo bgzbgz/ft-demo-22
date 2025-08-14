@@ -734,32 +734,23 @@ export default function App() {
         </div>
       </section>
 
-      {/* Social Proof */}
-      <section id="proof" className="py-20 bg-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-16">
-            <h2 className="text-4xl lg:text-5xl font-black uppercase tracking-tight mb-6">
-              Why Imprisoned Athletes Become Champions
-            </h2>
-          </div>
-          
-          <div className="grid md:grid-cols-3 gap-8 mb-16">
-            <div className="text-center">
-              <div className="text-6xl font-black mb-4" style={{ color: colors.accent }}>87%</div>
-              <h3 className="text-xl font-bold mb-2">Execution success vs 23% average</h3>
-              <p className="text-gray-600">Fast Track clients achieve 87% execution success while industry averages 23%</p>
-            </div>
-            <div className="text-center">
-              <div className="text-6xl font-black mb-4" style={{ color: colors.accent }}>27,000%</div>
-              <h3 className="text-xl font-bold mb-2">ROI on personal efficiency</h3>
-              <p className="text-gray-600">Personal optimization delivers 6,849% to 27,000% ROI on business results</p>
-            </div>
-            <div className="text-center">
-              <div className="text-6xl font-black mb-4" style={{ color: colors.accent }}>48h</div>
-              <h3 className="text-xl font-bold mb-2">Clarity delivery time</h3>
-              <p className="text-gray-600">Business MRI delivered in 48 hours, not months of consulting</p>
-            </div>
-          </div>
+      <div className="grid md:grid-cols-3 gap-8 mb-16">
+  <div className="text-center">
+    <div className="text-6xl font-headline font-bold mb-4" style={{ color: colors.black }}>87%</div>
+    <h3 className="text-xl font-headline font-bold mb-2 uppercase text-black">Execution success vs 23% average</h3>
+    <p className="text-gray-600 font-body">Fast Track clients achieve 87% execution success while industry averages 23%</p>
+  </div>
+  <div className="text-center">
+    <div className="text-6xl font-headline font-bold mb-4" style={{ color: colors.black }}>27,000%</div>
+    <h3 className="text-xl font-headline font-bold mb-2 uppercase text-black">ROI on personal efficiency</h3>
+    <p className="text-gray-600 font-body">Personal optimization delivers 6,849% to 27,000% ROI on business results</p>
+  </div>
+  <div className="text-center">
+    <div className="text-6xl font-headline font-bold mb-4" style={{ color: colors.black }}>48h</div>
+    <h3 className="text-xl font-headline font-bold mb-2 uppercase text-black">Clarity delivery time</h3>
+    <p className="text-gray-600 font-body">Business MRI delivered in 48 hours, not months of consulting</p>
+  </div>
+</div>
           
           <div className="grid md:grid-cols-2 gap-8">
             <div className="bg-gray-50 rounded-xl p-8">
